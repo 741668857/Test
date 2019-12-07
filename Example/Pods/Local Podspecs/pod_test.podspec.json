@@ -1,0 +1,26 @@
+{
+  "name": "pod_test",
+  "version": "0.1.0",
+  "summary": "A short description of pod_test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/741668857/Test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "741668857@qq.com": "741668857@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/741668857/Test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "pod_test/Classes/**/*",
+  "vendored_frameworks": [
+    "FlutterLibrary/Frameworks/App.framework",
+    "FlutterLibrary/Frameworks/Flutter.framework"
+  ]
+}
