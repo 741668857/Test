@@ -161,10 +161,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/pod_test/pod_test.framework"
+  install_framework "${PODS_ROOT}/../../pod_test/Frameworks/App.framework"
+  install_framework "${PODS_ROOT}/../../pod_test/Frameworks/Flutter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/pod_test1234/pod_test1234.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/pod_test/pod_test.framework"
+  install_framework "${PODS_ROOT}/../../pod_test/Frameworks/App.framework"
+  install_framework "${PODS_ROOT}/../../pod_test/Frameworks/Flutter.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/pod_test1234/pod_test1234.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

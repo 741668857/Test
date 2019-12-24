@@ -12,6 +12,6 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-FOUNDATION_EXPORT double pod_testVersionNumber;
-FOUNDATION_EXPORT const unsigned char pod_testVersionString[];
+FOUNDATION_EXPORT double pod_test1234VersionNumber;
+FOUNDATION_EXPORT const unsigned char pod_test1234VersionString[];
 

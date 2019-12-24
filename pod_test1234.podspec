@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'pod_test'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of pod_test.'
+  s.name             = 'pod_test1234'
+  s.version          = '1.0.0'
+  s.summary          = 'holo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'pod_test/Classes/**/*'
 
-  s.vendored_frameworks='FlutterLibrary/Frameworks/App.framework','FlutterLibrary/Frameworks/Flutter.framework'
+  s.vendored_frameworks='pod_test/Frameworks/App.framework','pod_test/Frameworks/Flutter.framework'
   
   # s.resource_bundles = {
   #   'pod_test' => ['pod_test/Assets/*.png']
